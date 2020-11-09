@@ -23,4 +23,6 @@ git 命令
  git remote add origin '仓库地址'  //添加的远程仓库地址
  git checkout -b 本地分支名 origin/远程分支  //可以直接跳转分支
  git checkout 分支名  //切换分支
- git push origin :仓库分支名  //将本地的分支推送到远程
+ git push origin 本地分支:远程分支（分支名相同就 git push）  ====git push origin <本地分支名>
+ git clone -b 分支名 路径
+ git pull origin 远程分支:本地分支 （分支名相同就 git pull） ====git pull origin <远程分支名>
