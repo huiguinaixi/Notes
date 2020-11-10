@@ -26,3 +26,4 @@ git 命令
  git push origin 本地分支:远程分支（分支名相同就 git push）  ====git push origin <本地分支名>
  git clone -b 分支名 路径
  git pull origin 远程分支:本地分支 （分支名相同就 git pull） ====git pull origin <远程分支名>
+ git add.
